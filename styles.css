@@ -13,3 +13,5 @@
 .round-answers strong{color:var(--text);font-weight:800}
 .round-score{font-size:20px}
 @media(max-width:390px){.round-row{grid-template-columns:58px minmax(0,1fr) auto;gap:7px;padding:10px}.round-answers{column-gap:8px;font-size:10px}.round-player{font-size:13px}}
+
+.round-player{display:flex;align-items:center;gap:8px}.round-flag{display:block;width:23px;height:16px;flex:none;object-fit:cover;border-radius:3px;box-shadow:0 0 0 1px rgba(255,255,255,.12)}
